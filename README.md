@@ -31,4 +31,13 @@ Alphabet Soup, a non-profit foundation, is seeking a tool that can facilitate th
         - The model's accuracy is approximately 72.45%, suggesting that it correctly predicted the target outcome for about 72.45% of the instances in the dataset.
         - The loss value (0.5553) is a measure of how well the model is performing, with lower values indicating better performance. This loss value is used to optimize the model during training.
      
-  - According to [`AlphabetSoupCharity_Optimisation.ipynb`](https://github.com/lakigit/deep-learning-challenge/blob/main/Starter_Code/AlphabetSoupCharity_Optimisation.ipynb)
+  - As per the analysis presented in the [`AlphabetSoupCharity_Optimisation.ipynb`](https://github.com/lakigit/deep-learning-challenge/blob/main/Starter_Code/AlphabetSoupCharity_Optimisation.ipynb) file, the objective is to optimize the model in order to achieve an accuracy rate exceeding 75%.
+      - **Attempt 01: Add More Neurons to Hidden Layers**\
+        The deep learning model comprises two hidden layers, with 100 and 90 neurons, respectively. The activation function employed in both these layers is "rectified linear unit" (ReLU), whereas the output layer uses the "sigmoid" activation function.
+![image](https://github.com/lakigit/deep-learning-challenge/assets/138610916/8ab4bf94-06ec-43f5-b0af-b5f4566f737a)
+
+        `268/268 - 1s - loss: 0.5607 - accuracy: 0.7243 - 781ms/epoch - 3ms/step`\
+        `Loss: 0.5606803894042969, Accuracy: 0.7243148684501648`
+
+        Notwithstanding, the incorporation of the aforementioned technique does not significantly enhance the precision of the model.
+        
